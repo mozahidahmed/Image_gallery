@@ -7,7 +7,7 @@ const Gallery = () => {
   // selected store
   const [selectedImages, setSelectedImages] = useState([]);
 
-  // image store
+  // image store you can select image 
   const [images, setImages] = useState(Images);
   const [draggedImage, setDraggedImage] = useState(null);
   const [dragedID, setDragedID] = useState(null);
@@ -21,12 +21,12 @@ const Gallery = () => {
     }
   };
 
-  //handle unselected
+  //handle unselected function
   const handleUnselect = () => {
     setSelectedImages([]);
   };
 
-  //drag drop function
+  //drag drop function 
   const handleDragStart = (e, image) => {
     e.dataTransfer.setData("imageId", image._id);
     setDraggedImage(image);
