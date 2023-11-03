@@ -24,3 +24,8 @@ Create a responsive image gallery using React JS with the following features: re
    - Host your React JS image gallery on any platform of your choice.
    - Share the live URL of your task with us for assessment.
    - Our verdict would be considered as rejected if your live URL link does not work.
+
+
+<h5>Live Demo With image </h5>
+<img src="https://i.ibb.co/8dmS6LF/img-Gallery-1.png" alt="" />
+<img src="https://i.ibb.co/QFhpCSD/img-Gallery.png" alt="" />
