@@ -31,4 +31,4 @@ Create a responsive image gallery using React JS with the following features: re
 <img src="https://i.ibb.co/QFhpCSD/img-Gallery.png" alt="" />
 
 
-<h1>Done</h1>
+<h1>Done works</h1>
